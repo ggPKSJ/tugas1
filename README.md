@@ -109,4 +109,4 @@ hydra -l lutfi -P 500-worst-passwords.txt 10.151.36.109 ssh
 - Tools `Hydra` akan melakukan Brute Force Attack dengan menggunakan username `server` dan list password yang ada pada [500-worst-password.txt](http://downloads.skullsecurity.org/passwords/500-worst-passwords.txt.bz2) pada alamat IP `10.151.36.109`
 - Tunggu hingga proses Brute Force selesai dilakukan.
 - Karena password yang dipakai tidak ada pada list password, maka akan tampil seperti dibawah ini :
-![Hasil Skenario 1](Hydra/Skenario2.png)
+![Hasil Skenario 2](Hydra/Skenario2.png)
