@@ -19,7 +19,7 @@
 * Lakukan uji penetrasi 1: dengan THC-Hydra atau Ncrack dan catat hasil uji penetrasi 
 
 **Uji penetrasi 2:**
-* Instal fail2ban pada Ubuntu server yang telah diinstal SSH servernya
+* Instal fail2ban pada Ubuntu server yang telah diinstal SSH servernya lalu konfigurasi fail2ban.
 * Konfigurasilah SSH server agar tidak default lagi
 * Lakukan uji penetrasi 2 dengan tools yang sama dan catat hasilnya
 
