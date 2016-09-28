@@ -59,40 +59,87 @@ Ubuntu server adalah suatu desain ubuntu yang digunakan untuk diinstall di lingk
  1.apabila kita menginstall melalui graphical install
 ![Hasil install 1](install_kali2/1.PNG)
  2. memilih bahasa yang akan kita gunakan dalam OS tersebut.
+![Hasil install 1](install_kali2/2.PNG)
  3. memilih lokasi dimana kita sekarang
+![Hasil install 1](install_kali2/3.PNG)
+![Hasil install 1](install_kali2/4.PNG)
+![Hasil install 1](install_kali2/5.PNG)
+![Hasil install 1](install_kali2/6.PNG)
  4. memilih konfigurasi keyboard yang akan kita pakai
+![Hasil install 1](install_kali2/7.PNG)
  5. mengetikkan nama host yang kita mau
+![Hasil install 1](install_kali2/8.PNG)
  6. mengetikkan nama domain komputer yang kita inginkan
+![Hasil install 1](install_kali2/9.PNG)
  7. mengetikkan password yang kita inginkan
+![Hasil install 1](install_kali2/10.PNG)
  8. memilih time zone yang kita inginkan
+![Hasil install 1](install_kali2/11.PNG)
  9. memilih cara partisi yang kita inginkan (untuk pemula disarankan yang guided- use entire disk)
+![Hasil install 1](install_kali2/12.PNG)
  10. memilih disk yang akan dipartisi
+![Hasil install 1](install_kali2/13.PNG)
+![Hasil install 1](install_kali2/14.PNG)
  11. kalau sudah selesai maka kita akan memilih finish partitioning terus mengklik continue
+![Hasil install 1](install_kali2/15.PNG)
  12. kalau menurut kita sudah benar maka tinggal klik yes terus continue
+![Hasil install 1](install_kali2/16.PNG)
+![Hasil install 1](install_kali2/17.PNG)
  13. kita akan dihadapi apakah kita akan mendownload mirror untuk kali linux atau tidak (kalau ada internet ya pilih ya terus kalau tidak ada internet pilih tidak)
+![Hasil install 1](install_kali2/18.PNG)
  13b. kalau pada step 12 pilih ya maka kita akan disuruh memasukkan network proxy (kalau ada kita mengisikan network proxy kalau tidak ada jangan di tulis).
+![Hasil install 1](install_kali2/19.PNG)
  14. memilih yes untuk memasang boot loader ke master boot record pada harddisk
- 15. silahkan menunggu sampe dengan proses menyalin data yang ada kedalam harddisk
-
+![Hasil install 1](install_kali2/20.PNG)
+![Hasil install 1](install_kali2/21.PNG)
+ 15. Selesai
+![Hasil install 1](install_kali2/22.PNG)
 #### 2. Langkah Instalasi Ubuntu Server
  1. memilih bahasa yang akan digunakan dalam proses installasi.
+![Hasil install 1](install_ubuntu/1.PNG)
  2. memilih install ubuntu server
+![Hasil install 1](install_ubuntu/2.PNG)
  3. memilih bahasa yang akan kita gunakan dalam OS tersebut
+![Hasil install 1](install_ubuntu/3.PNG)
  4. memilih lokasi dimana kita sekarang
+![Hasil install 1](install_ubuntu/4.PNG)
+![Hasil install 1](install_ubuntu/5.PNG)
+![Hasil install 1](install_ubuntu/6.PNG)
+![Hasil install 1](install_ubuntu/7.PNG)
  5. memilih konfigurasi keyboard yang akan kita pakai
+![Hasil install 1](install_ubuntu/8.PNG)
+![Hasil install 1](install_ubuntu/9.PNG)
+![Hasil install 1](install_ubuntu/11.PNG)
+Proses yang terjadi diantara proses 5 dan 6
+![Hasil install 1](install_ubuntu/12.PNG)
  6. mengetikkan nama host yang kita mau
- 7. mengetikkan nama user yang kita mau
+![Hasil install 1](install_ubuntu/13.PNG)
+ 7. mengetikkan full name dan nama usernya kita yang kita mau
+![Hasil install 1](install_ubuntu/14.PNG)
+![Hasil install 1](install_ubuntu/15.PNG)
  8. mengetikkan password dan verify password yang kita inginkan
+![Hasil install 1](install_ubuntu/16.PNG)
+![Hasil install 1](install_ubuntu/17.PNG)
  9. memilih apakah mau home directorynya di encrypt atau tidak(kalau ingin lebih aman pada bagian ini pilih ya kalau tidak pilih bagian no)
+![Hasil install 1](install_ubuntu/18.PNG)
  10. memilih time zone yang kita inginkan.
+![Hasil install 1](install_ubuntu/19.PNG)
  11. memilih cara partisi yang kita inginkan (untuk pemula disarankan yang guided- use entire disk)
+![Hasil install 1](install_ubuntu/20.PNG)
  12. memilih disk yang akan dipartisi
+![Hasil install 1](install_ubuntu/21.PNG)
  13. kalau sudah selesai maka kita akan memilih finish partitioning terus mengklik yes
+![Hasil install 1](install_ubuntu/22.PNG)
  14. pada step ini kita akan disuruh mendownload sebagian konfirmasi yang diinginkan maka jika ada network proxy tinggal isi kalau tidak ada dikosongkan
+![Hasil install 1](install_ubuntu/23.PNG)
  15. memilih tipe upgrade yang akan dilakukan pada system, tinggal pilih sesuai dengan kebutuhan yang kita inginkan
+![Hasil install 1](install_ubuntu/24.PNG)
  16. memilih softaware yang akan diinstall selain dari core system yang ada.(pilih sesuai dengan kebutuhan)
+![Hasil install 1](install_ubuntu/25.PNG)
  17. memilih yes untuk memasang boot loader ke master boot record pada harddisk
+![Hasil install 1](install_ubuntu/26.PNG)
  18. Selesai.
+![Hasil install 1](install_ubuntu/27.PNG)
 
 #### 3. Penambahan User
 
