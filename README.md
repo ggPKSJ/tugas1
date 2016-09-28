@@ -57,42 +57,42 @@ Ubuntu server adalah suatu desain ubuntu yang digunakan untuk diinstall di lingk
 
 #### 1. Langkah Instalasi Kali Linux
  1.apabila kita menginstall melalui graphical install
-![Install ubuntu server](install_kali2/1.png)
-		2. memilih bahasa yang akan kita gunakan dalam OS tersebut.
-		3. memilih lokasi dimana kita sekarang
-		4. memilih konfigurasi keyboard yang akan kita pakai
-		5. mengetikkan nama host yang kita mau
-		6. mengetikkan nama domain komputer yang kita inginkan
-		7. mengetikkan password yang kita inginkan
-		8. memilih time zone yang kita inginkan
-		9. memilih cara partisi yang kita inginkan (untuk pemula disarankan yang guided- use entire disk)
-		10. memilih disk yang akan dipartisi
-		11. kalau sudah selesai maka kita akan memilih finish partitioning terus mengklik continue
-		12. kalau menurut kita sudah benar maka tinggal klik yes terus continue
-		13. kita akan dihadapi apakah kita akan mendownload mirror untuk kali linux atau tidak (kalau ada internet ya pilih ya terus kalau tidak ada internet pilih tidak)
-		13b. kalau pada step 12 pilih ya maka kita akan disuruh memasukkan network proxy (kalau ada kita mengisikan network proxy kalau tidak ada jangan di tulis).
-		14. memilih yes untuk memasang boot loader ke master boot record pada harddisk
-		15. silahkan menunggu sampe dengan proses menyalin data yang ada kedalam harddisk
+![Hasil install 1](install_kali2/1.PNG)
+ 2. memilih bahasa yang akan kita gunakan dalam OS tersebut.
+ 3. memilih lokasi dimana kita sekarang
+ 4. memilih konfigurasi keyboard yang akan kita pakai
+ 5. mengetikkan nama host yang kita mau
+ 6. mengetikkan nama domain komputer yang kita inginkan
+ 7. mengetikkan password yang kita inginkan
+ 8. memilih time zone yang kita inginkan
+ 9. memilih cara partisi yang kita inginkan (untuk pemula disarankan yang guided- use entire disk)
+ 10. memilih disk yang akan dipartisi
+ 11. kalau sudah selesai maka kita akan memilih finish partitioning terus mengklik continue
+ 12. kalau menurut kita sudah benar maka tinggal klik yes terus continue
+ 13. kita akan dihadapi apakah kita akan mendownload mirror untuk kali linux atau tidak (kalau ada internet ya pilih ya terus kalau tidak ada internet pilih tidak)
+ 13b. kalau pada step 12 pilih ya maka kita akan disuruh memasukkan network proxy (kalau ada kita mengisikan network proxy kalau tidak ada jangan di tulis).
+ 14. memilih yes untuk memasang boot loader ke master boot record pada harddisk
+ 15. silahkan menunggu sampe dengan proses menyalin data yang ada kedalam harddisk
 
 #### 2. Langkah Instalasi Ubuntu Server
-		1. memilih bahasa yang akan digunakan dalam proses installasi.
-		2. memilih install ubuntu server
-		3. memilih bahasa yang akan kita gunakan dalam OS tersebut
-		4. memilih lokasi dimana kita sekarang
-		5. memilih konfigurasi keyboard yang akan kita pakai
-		6. mengetikkan nama host yang kita mau
-		7. mengetikkan nama user yang kita mau
-		8. mengetikkan password dan verify password yang kita inginkan
-		9. memilih apakah mau home directorynya di encrypt atau tidak(kalau ingin lebih aman pada bagian ini pilih ya kalau tidak pilih bagian no)
-		10. memilih time zone yang kita inginkan.
-		11. memilih cara partisi yang kita inginkan (untuk pemula disarankan yang guided- use entire disk)
-		12. memilih disk yang akan dipartisi
-		13. kalau sudah selesai maka kita akan memilih finish partitioning terus mengklik yes
-		14. pada step ini kita akan disuruh mendownload sebagian konfirmasi yang diinginkan maka jika ada network proxy tinggal isi kalau tidak ada dikosongkan
-		15. memilih tipe upgrade yang akan dilakukan pada system, tinggal pilih sesuai dengan kebutuhan yang kita inginkan
-		16. memilih softaware yang akan diinstall selain dari core system yang ada.(pilih sesuai dengan kebutuhan)
-		17. memilih yes untuk memasang boot loader ke master boot record pada harddisk
-		18. Selesai.
+ 1. memilih bahasa yang akan digunakan dalam proses installasi.
+ 2. memilih install ubuntu server
+ 3. memilih bahasa yang akan kita gunakan dalam OS tersebut
+ 4. memilih lokasi dimana kita sekarang
+ 5. memilih konfigurasi keyboard yang akan kita pakai
+ 6. mengetikkan nama host yang kita mau
+ 7. mengetikkan nama user yang kita mau
+ 8. mengetikkan password dan verify password yang kita inginkan
+ 9. memilih apakah mau home directorynya di encrypt atau tidak(kalau ingin lebih aman pada bagian ini pilih ya kalau tidak pilih bagian no)
+ 10. memilih time zone yang kita inginkan.
+ 11. memilih cara partisi yang kita inginkan (untuk pemula disarankan yang guided- use entire disk)
+ 12. memilih disk yang akan dipartisi
+ 13. kalau sudah selesai maka kita akan memilih finish partitioning terus mengklik yes
+ 14. pada step ini kita akan disuruh mendownload sebagian konfirmasi yang diinginkan maka jika ada network proxy tinggal isi kalau tidak ada dikosongkan
+ 15. memilih tipe upgrade yang akan dilakukan pada system, tinggal pilih sesuai dengan kebutuhan yang kita inginkan
+ 16. memilih softaware yang akan diinstall selain dari core system yang ada.(pilih sesuai dengan kebutuhan)
+ 17. memilih yes untuk memasang boot loader ke master boot record pada harddisk
+ 18. Selesai.
 
 #### 3. Penambahan User
 
