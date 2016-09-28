@@ -57,7 +57,7 @@ Ubuntu server adalah suatu desain ubuntu yang digunakan untuk diinstall di lingk
 
 #### 1. Langkah Instalasi Kali Linux
  1.apabila kita menginstall melalui graphical install
-![Install ubuntu server](https://raw.githubusercontent.com/ggPKSJ/tugas1/install_kali2/1.jpg)
+![Install ubuntu server](install_kali2/1.png)
 		2. memilih bahasa yang akan kita gunakan dalam OS tersebut.
 		3. memilih lokasi dimana kita sekarang
 		4. memilih konfigurasi keyboard yang akan kita pakai
