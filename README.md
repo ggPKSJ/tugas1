@@ -23,38 +23,75 @@
 * Konfigurasilah SSH server agar tidak default lagi
 * Lakukan uji penetrasi 2 dengan tools yang sama dan catat hasilnya
 
+SSH(Secure Shell) adalah  sebuah protokol jaringan kriptografi untuk komunikasi data yang aman, login antarmuka baris perintah, perintah eksekusi jarak jauh, dan layanan jaringan lainnya antara dua jaringan komputer. Ini terkoneksi, melalui saluran aman atau melalui jaringan tidak aman, server dan klien menjalankan server SSH dan SSH program klien secara masing-masing.
+Terdapat 2 versi SSH yaitu SSH 1 dan SSH 2. bedanya terletak pada mencakup kedua fitur keamanan dan peningkatan perbaikan tingkat keamanan yang disediakan.
+Sebagai contoh, applikasi menggunakan ssh adalah openssh.(https://id.wikipedia.org/wiki/SSH)
+
+Akan tetapi karena masih menggunakan password dan username yang digunakan sebagai otentikasi pada SSH sehingga menimbulkan serangan yang disebut dengan SSH brute force attack. Yang dimaksud dengan SSH brute force attack adalah kita menggirimkan password / passphrases dan username yang kita ketahui dengan harapan membuka komunikasi SSH yang ada (https://en.wikipedia.org/wiki/Brute-force_attack)
 
 ## Dasar Teori
+
 
 **1. OS yang digunakan**
 
 * **Kali Linux** adalah 
+Kali Linux adalah salah satu distribusi Linux tingkat lanjut untuk Penetration Testing dan audit keamanan, pembangunan kembali BackTrack Linux secara sempurna,  mengikuti sepenuhnya kepada standar pengembangan Debian.(http://id.docs.kali.org/introduction-id/apa-itu-kali-linux)
 
 * **Ubuntu Server** adalah 
+Ubuntu server adalah suatu desain ubuntu yang digunakan untuk diinstall di lingkungan enterprise atau perusahaan untuk keperluan seperti web server ataupun router, secara default versi server ini tidak menyertakan antarmuka GUI, yang ada hanya shell alias Command line,aplikasi bawaan dari ubuntu server sekedar info buat anda berupa aplikasi serveri webserver, DNS server, DHCP server, firewall, openSSH, dan applikasi yang berhubungan dengan server, teknologi yang dibenamkan diserver juga umumnya hanya dipakai oleh orang yang benar benar advanced di Linux. (https://etix.wordpress.com/2010/01/28/perbedaan-ubuntu-server-dan-desktop/)
 
 **2. Tools yang digunakan**
 
 *Cracking Tool*
 
-* **Hydra**, adalah 
+* **Hydra**, adalah paralelisasi cracker login yang mendukung banyak protokol untuk menyerang sasaran yang diinginkan. software ini sangat cepat dan fleksibel dan modulenya diinginkan dapat ditambah dengan mudah. Tools ini sangat memungkinkan untuk peneliti dan konsultan keamanan untuk mendapatkan unauthorized access kepada suatu remote sistem. (http://tools.kali.org/password-attacks/hydra)
+
 * **BELUM SELESAI**, adalah
 
 *Defending Tool*
 
-* **Fail2Ban** adalah 
-
+* **Fail2Ban** adalah package keamanan yang digunakan untuk mencegah serangan brute-force dan DDoS pada linux. cara kerjanya sebagai berikut memonitor jumlah kegagalan login untuk selanjutnya memblok ip address dari login yang gagal tersebut.(https://kpunikomlipi.wordpress.com/2012/07/30/konfigurasi-fail2ban-untuk-mengamankan-server/)
+ 
 
 ## Persiapan
 
 #### 1. Langkah Instalasi Ubuntu Server
-  1.
-  2.
-  3.
+  apabila kita menginstall melalui graphical install
+		1. memilih bahasa yang akan kita gunakan dalam OS tersebut.
+		2. memilih lokasi dimana kita sekarang
+		3. memilih konfigurasi keyboard yang akan kita pakai
+		4. mengetikkan nama host yang kita mau
+		5. mengetikkan nama domain komputer yang kita inginkan
+		6. mengetikkan password yang kita inginkan
+		7. memilih time zone yang kita inginkan
+		8. memilih cara partisi yang kita inginkan (untuk pemula disarankan yang guided- use entire disk)
+		9. memilih disk yang akan dipartisi
+		10. kalau sudah selesai maka kita akan memilih finish partitioning terus mengklik continue
+		11. kalau menurut kita sudah benar maka tinggal klik yes terus continue
+		12. kita akan dihadapi apakah kita akan mendownload mirror untuk kali linux atau tidak (kalau ada internet ya pilih ya terus kalau tidak ada internet pilih tidak)
+		12b. kalau pada step 12 pilih ya maka kita akan disuruh memasukkan network proxy (kalau ada kita mengisikan network proxy kalau tidak ada jangan di tulis).
+		13. memilih yes untuk memasang boot loader ke master boot record pada harddisk
+		14. silahkan menunggu sampe dengan proses menyalin data yang ada kedalam harddisk
 
 #### 2. Langkah Instalasi Kali Linux
-
-  1. Langkah 1
-  2. Langkah 2
+		1. memilih bahasa yang akan digunakan dalam proses installasi.
+		2. memilih install ubuntu server
+		3. memilih bahasa yang akan kita gunakan dalam OS tersebut
+		4. memilih lokasi dimana kita sekarang
+		5. memilih konfigurasi keyboard yang akan kita pakai
+		6. mengetikkan nama host yang kita mau
+		7. mengetikkan nama user yang kita mau
+		8. mengetikkan password dan verify password yang kita inginkan
+		9. memilih apakah mau home directorynya di encrypt atau tidak(kalau ingin lebih aman pada bagian ini pilih ya kalau tidak pilih bagian no)
+		10. memilih time zone yang kita inginkan.
+		11. memilih cara partisi yang kita inginkan (untuk pemula disarankan yang guided- use entire disk)
+		12. memilih disk yang akan dipartisi
+		13. kalau sudah selesai maka kita akan memilih finish partitioning terus mengklik yes
+		14. pada step ini kita akan disuruh mendownload sebagian konfirmasi yang diinginkan maka jika ada network proxy tinggal isi kalau tidak ada dikosongkan
+		15. memilih tipe upgrade yang akan dilakukan pada system, tinggal pilih sesuai dengan kebutuhan yang kita inginkan
+		16. memilih softaware yang akan diinstall selain dari core system yang ada.(pilih sesuai dengan kebutuhan)
+		17. memilih yes untuk memasang boot loader ke master boot record pada harddisk
+		18. Selesai.
 
 #### 3. Penambahan User
 
