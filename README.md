@@ -215,7 +215,7 @@ Pada UBUNTU SERVER:
 PasswordAuthentication no
 ```
 pada file sshd_config, seperti berikut
-![config](ssh-config/config1.png)
+![config](ssh-config/config1.PNG)
 
 - lalu restart service ssh dengan command:
 ```
@@ -239,7 +239,7 @@ hydra -l server -P 500-worst-passwords.txt 10.151.36.109 ssh
 - Tools `Hydra` akan melakukan Brute Force Attack dengan menggunakan username `lutfi` dan list password yang ada pada [500-worst-password.txt](http://downloads.skullsecurity.org/passwords/500-worst-passwords.txt.bz2) pada alamat IP `10.151.36.109`
 - Tunggu hingga proses Brute Force selesai dilakukan. Seperti dibawah ini :
 
-![Hasil Skenario 1](Hydra/Skenario3.png)
+![Hasil Skenario 1](Hydra/Skenario3.PNG)
 
 **Skenario 2** : Brute Force User `server` menggunakan list password [500-worst-password.txt](http://downloads.skullsecurity.org/passwords/500-worst-passwords.txt.bz2), dengan konfigurasi pada tools fail2ban
 
@@ -254,13 +254,13 @@ findtime = 60
 maxretry = 3
 ```
 pada file konfigurasi fail2ban (/etc/fail2ban/jail.conf), seperti berikut
-![config](fail2ban/config.png)
+![config](fail2ban/config.PNG)
 
 
 
 PADA KALI LINUX
 - Masukkan password user yang akan di bruteforce pada file **500-worst-passwords.txt** pada urutan terakhir dari list password yang akan dicoba.
-![listpassword](fail2ban/password1.png)
+![listpassword](fail2ban/password1.PNG)
 - Lalu, gunakan *Hydra* untuk melakukan Brute Force Attack pada user `server` dengan cara :
 ```
 hydra -l server -P 500-worst-passwords.txt 10.151.36.109 ssh
@@ -269,7 +269,7 @@ hydra -l server -P 500-worst-passwords.txt 10.151.36.109 ssh
 - Tools `Hydra` akan melakukan Brute Force Attack dengan menggunakan username `server` dan list password yang ada pada [500-worst-password.txt](http://downloads.skullsecurity.org/passwords/500-worst-passwords.txt.bz2) pada alamat IP `10.151.36.109`
 - Tunggu hingga proses Brute Force selesai dilakukan.
 - Karena percobaan login telah melebihi 3 kali dalam 1menit maka user yang mencoba login akan di ban sekalam 600 detik (sesuai pada konfigurasi fail2ban.
-![Hasil Skenario 2](Hydra/Skenario4.png)
+![Hasil Skenario 2](Hydra/Skenario4.PNG)
 
 ## Kesimpulan dan Saran
 - untuk mencegah ssh brute force dapat dilakukan beberapa hal, beberapa diantaranya adalah dengan melakukan konfigurasi pada ssh-server atau menggunakan tools untuk mencegah ssh brute-force attack seperti fail2ban.
