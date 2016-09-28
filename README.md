@@ -55,26 +55,26 @@ Ubuntu server adalah suatu desain ubuntu yang digunakan untuk diinstall di lingk
 
 ## Persiapan
 
-#### 1. Langkah Instalasi Ubuntu Server
-		apabila kita menginstall melalui graphical install
-		1. memilih bahasa yang akan kita gunakan dalam OS tersebut.
-		![Install ubuntu server](https://raw.githubusercontent.com/ggPKSJ/tugas1/1.jpg)
-		2. memilih lokasi dimana kita sekarang
-		3. memilih konfigurasi keyboard yang akan kita pakai
-		4. mengetikkan nama host yang kita mau
-		5. mengetikkan nama domain komputer yang kita inginkan
-		6. mengetikkan password yang kita inginkan
-		7. memilih time zone yang kita inginkan
-		8. memilih cara partisi yang kita inginkan (untuk pemula disarankan yang guided- use entire disk)
-		9. memilih disk yang akan dipartisi
-		10. kalau sudah selesai maka kita akan memilih finish partitioning terus mengklik continue
-		11. kalau menurut kita sudah benar maka tinggal klik yes terus continue
-		12. kita akan dihadapi apakah kita akan mendownload mirror untuk kali linux atau tidak (kalau ada internet ya pilih ya terus kalau tidak ada internet pilih tidak)
-		12b. kalau pada step 12 pilih ya maka kita akan disuruh memasukkan network proxy (kalau ada kita mengisikan network proxy kalau tidak ada jangan di tulis).
-		13. memilih yes untuk memasang boot loader ke master boot record pada harddisk
-		14. silahkan menunggu sampe dengan proses menyalin data yang ada kedalam harddisk
+#### 1. Langkah Instalasi Kali Linux
+ 1.apabila kita menginstall melalui graphical install
+![Install ubuntu server](https://raw.githubusercontent.com/ggPKSJ/tugas1/install_kali2/1.jpg)
+		2. memilih bahasa yang akan kita gunakan dalam OS tersebut.
+		3. memilih lokasi dimana kita sekarang
+		4. memilih konfigurasi keyboard yang akan kita pakai
+		5. mengetikkan nama host yang kita mau
+		6. mengetikkan nama domain komputer yang kita inginkan
+		7. mengetikkan password yang kita inginkan
+		8. memilih time zone yang kita inginkan
+		9. memilih cara partisi yang kita inginkan (untuk pemula disarankan yang guided- use entire disk)
+		10. memilih disk yang akan dipartisi
+		11. kalau sudah selesai maka kita akan memilih finish partitioning terus mengklik continue
+		12. kalau menurut kita sudah benar maka tinggal klik yes terus continue
+		13. kita akan dihadapi apakah kita akan mendownload mirror untuk kali linux atau tidak (kalau ada internet ya pilih ya terus kalau tidak ada internet pilih tidak)
+		13b. kalau pada step 12 pilih ya maka kita akan disuruh memasukkan network proxy (kalau ada kita mengisikan network proxy kalau tidak ada jangan di tulis).
+		14. memilih yes untuk memasang boot loader ke master boot record pada harddisk
+		15. silahkan menunggu sampe dengan proses menyalin data yang ada kedalam harddisk
 
-#### 2. Langkah Instalasi Kali Linux
+#### 2. Langkah Instalasi Ubuntu Server
 		1. memilih bahasa yang akan digunakan dalam proses installasi.
 		2. memilih install ubuntu server
 		3. memilih bahasa yang akan kita gunakan dalam OS tersebut
