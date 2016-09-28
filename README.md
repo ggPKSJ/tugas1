@@ -56,8 +56,9 @@ Ubuntu server adalah suatu desain ubuntu yang digunakan untuk diinstall di lingk
 ## Persiapan
 
 #### 1. Langkah Instalasi Ubuntu Server
-  apabila kita menginstall melalui graphical install
+		apabila kita menginstall melalui graphical install
 		1. memilih bahasa yang akan kita gunakan dalam OS tersebut.
+		![Install ubuntu server](https://raw.githubusercontent.com/ggPKSJ/tugas1/1.jpg)
 		2. memilih lokasi dimana kita sekarang
 		3. memilih konfigurasi keyboard yang akan kita pakai
 		4. mengetikkan nama host yang kita mau
