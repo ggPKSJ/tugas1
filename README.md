@@ -46,7 +46,6 @@ Ubuntu server adalah suatu desain ubuntu yang digunakan untuk diinstall di lingk
 
 * **Hydra**, adalah paralelisasi cracker login yang mendukung banyak protokol untuk menyerang sasaran yang diinginkan. software ini sangat cepat dan fleksibel dan modulenya diinginkan dapat ditambah dengan mudah. Tools ini sangat memungkinkan untuk peneliti dan konsultan keamanan untuk mendapatkan unauthorized access kepada suatu remote sistem. (http://tools.kali.org/password-attacks/hydra)
 
-* **BELUM SELESAI**, adalah
 
 *Defending Tool*
 
